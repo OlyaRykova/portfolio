@@ -1,0 +1,195 @@
+* {
+    margin: unset;
+    padding: unset;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*header*/
+
+.header {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+ul li {
+    margin-right: 62px;
+
+}
+
+.theme {
+    margin-left: 83px;
+    height: 47px;
+    width: 47px;
+    border-radius: 50px;
+    border: none;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/*section welcome*/
+
+.wrapper-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.wrapper-left {
+    margin: 492px 0 0 0;
+}
+
+.wrapper-left-p1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.wrapper-left-p2 {
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.wrapper-left-p3 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.wrapper-left-p4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.wrapper-right {
+    margin-top: 140px;
+}
+
+/* section projects*/
+
+h1 {
+    margin-top: 160px;
+    font-weight: 900;
+    font-size: 85px;
+    line-height: 125px;
+    color: #000000;
+}
+
+h3 {
+    margin: 35px 0 87px;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.three_project {
+    margin-top: 87px;
+}
+
+.four_project {
+    margin-top: 87px;
+}
+
+.mypets {
+    margin-top: 14px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.media_pets {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.btn-first {
+    width: 303px;
+    height: 52px;
+    border: 2px solid #000000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.btn-next {
+    width: 303px;
+    height: 52px;
+    border: 2px solid #000000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.about-me {
+    display: flex;
+}
